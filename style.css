@@ -1,0 +1,555 @@
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:rgb(248, 239, 227) ;
+}
+
+.TopBar{
+    background-color: brown;
+    height: 2em;
+    
+}
+
+.TopBar ul {
+    list-style-type: none;
+    color: rgb(248, 239, 227);
+    text-align: center;
+    
+}
+.TopBar ul li{
+    display: inline-block;
+    align-items: center;
+    letter-spacing: 2em;
+    margin: 2px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+   
+}
+
+.TopBar li:hover{
+    color: rgb(237, 161, 111);
+
+}
+
+.Navbar {
+    background-color: rgb(248, 239, 227);
+    height: 4em;
+   
+
+}
+
+.nav-link {
+    color: brown;
+    margin: 1em;
+    padding: 1em;
+}
+
+.nav-link:hover {
+    color: rgb(247, 149, 84);
+    cursor: pointer;
+
+}
+
+/* .navbar-nav, a{
+   
+    justify-content: end;
+} */
+
+.navbar-toggler{
+    color:  rgb(248, 239, 227);
+    background-color: brown;
+}
+
+.navbar-toggler-icon:hover{
+    text-decoration: none;
+    background: rgb(248, 239, 227);
+    
+}
+
+.btn-close:hover{
+    color:brown;
+}
+
+.offcanvas{
+    
+    background-color:rgb(248, 239, 227) ;
+}
+
+#heroSec{
+    width: 100%;
+    height: 700px;
+    background: url(img/Store2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+#heroSec, .card{
+    padding: 1rem 1rem ;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    
+  
+}
+
+.cb1{
+    background-color:rgba(245, 146, 33, 0.2) ;
+    color: rgb(248, 239, 227);
+    font-size: large;
+    
+    
+}
+
+
+
+.scale-up-center{
+	-webkit-animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.7);
+              transform: scale(0.7);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.7);
+              transform: scale(0.7);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+figure, h4{
+    color:brown;
+}  
+
+.IdBlockCap{
+    color: brown;
+} 
+
+.IdBlockCap:hover{
+    color: rgb(237, 161, 111);
+}
+  
+#trends{
+    /* background-color:rgb(248, 239, 227) ; */
+    width: 100%;
+    height: 700px;
+    padding: 2rem;
+} 
+
+.trendsL ,.trendsR{
+    height: 500px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+
+}
+
+.trendsL{
+    background: url(img/trendsL.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.trendsR{
+    background: url(img/trendsRight.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#trends, .card{
+    padding: 1rem 1rem ;
+    border: transparent;
+    backdrop-filter: blur(1rem);
+    
+} 
+
+@media screen and (max-width: 600px) {
+    #trends {height: 1200px;}
+    
+}
+@media screen and (min-width: 600px) {
+    #trends {height: 1000px;}
+}
+@media screen and (min-width: 768px) {
+    #trends {height: 1100px;}
+}
+@media screen and (min-width: 992px) {
+    #trends {height: 800px;}
+}
+@media screen and (min-width: 1200px) {
+    #trends {height: 700px;}
+}
+  
+
+.cbtr2{
+    background-color:rgb(248, 239, 227) ;
+    color: brown;
+    font-size: large;
+}
+
+#CardBut{
+    font-size: large;
+    font-weight: bold;  
+}
+
+#categories{
+    width: 100%;
+    height: 500px;
+    padding: 1rem;
+}
+
+/* .categories1, .categories2, .categories3, .categories4{
+    height: 250px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+
+} */
+
+#categoryimg{
+    height: 300px;
+    padding: 15px;
+    margin: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: last baseline; */
+}
+
+.categories1{
+    background: url(img/Dress.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.categories2{
+    background: url(img/kurta1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.categories3{
+    background: url(img/bottum1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.categories4{
+    background: url(img/Coord.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #categories {height: 900px;}
+}
+@media screen and (min-width: 600px) {
+    #categories {height: 800px;}
+}
+@media screen and (min-width: 768px) {
+    #categories {height: 900px;}
+}
+@media screen and (min-width: 992px) {
+    #categories {height: 600px;}
+}
+@media screen and (min-width: 1200px) {
+    #categories {height: 500px;}
+}
+
+
+#exclusive{
+    width: 100%;
+    /* height: 700px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#weddingshop{
+    
+    width: 100%;
+    height: 700px;
+    padding: 2rem;
+} 
+
+.weddingshopL ,.weddingshopR{
+    height: 500px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+
+}
+
+.weddingshopL{
+   
+    background: url(img/WedL.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.weddingshopR{
+    
+    background: url(img/WedR.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* #weddingshop, .card{
+    padding: 1rem 1rem ;
+    border: transparent;
+    backdrop-filter: blur(1rem);
+    
+}  */
+
+@media screen and (max-width: 600px) {
+    #weddingshop {height: 1200px;}
+}
+@media screen and (min-width: 600px) {
+    #weddingshop {height: 1000px;}
+}
+@media screen and (min-width: 768px) {
+    #weddingshop {height: 1200px;}
+}
+@media screen and (min-width: 992px) {
+    #weddingshop {height: 800px;}
+}
+@media screen and (min-width: 1200px) {
+    #weddingshop {height: 700px;}
+}
+
+.cbtr3{
+    background-color:rgb(248, 239, 227) ;
+    color: brown;
+    font-size: large;
+    padding:10px;
+}
+
+#accessories{
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+}
+
+
+
+#accessoriesimg{
+    height: 200px;
+    /* padding: 5px; */
+    margin: 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: last baseline; */
+}
+
+.accessories1{
+    background: url(img/jewellery.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.accessories2{
+    background: url(img/bags.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.accessories3{
+    background: url(img/footwears.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.accessories4{
+    background: url(img/bracelets.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.accessories5{
+    background: url(img/hairorna.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.accessories6{
+    background: url(img/sneakers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #accessories {height: 600px;}
+    #accessoriesimg {height:150px ;}
+}
+@media screen and (min-width: 600px) {
+    #accessories {height: 700px;}
+    #accessoriesimg {height:160px ;}
+}
+@media screen and (min-width: 768px) {
+    #accessories {height: 700px;}
+    #accessoriesimg {height:170px ;}
+}
+@media screen and (min-width: 992px) {
+    #accessories {height: 500px;}
+    #accessoriesimg {height:180px ;}
+}
+@media screen and (min-width: 1200px) {
+    #accessories {height: 400px;}
+    #accessoriesimg {height: 200px;}
+}
+
+
+#customize{
+    
+    width: 100%;
+    height: 700px;
+    padding: 1rem;
+} 
+
+.customizeL{
+    height: 500px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+
+}
+.customizeR{
+    background-color: brown;
+    border-radius: 2px;
+    height: 350px;
+    padding: 1rem;
+    margin: 4rem 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.custocard{
+    color:rgb(248, 239, 227);
+    font-weight: bold;
+}
+
+
+.customizeL{
+   
+    background: url(img/customimg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.customizeR{
+    
+    /* background: url(img/WedR.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #customize {height: 1100px;}
+}
+@media screen and (min-width: 600px) {
+    #customize {height: 1000px;}
+}
+@media screen and (min-width: 768px) {
+    #customize {height: 800px;}
+}
+@media screen and (min-width: 992px) {
+    #customize {height: 800px;}
+}
+@media screen and (min-width: 1200px) {
+    #customize {height: 700px;}
+}
+
+#footer{
+    height: 350px;
+    width: 100%;
+    background-color: brown;
+    color: beige;
+   
+    
+}
+
+#footer,i{
+    padding: 0rem 1rem;
+}
+
+
+i:hover{
+   color: burlywood;
+   cursor: pointer;
+    
+}
+p:hover{
+    color: burlywood;
+    cursor: pointer; 
+}
+@media screen and (max-width: 600px) {
+    #footer {height: 400px;}
+}
+@media screen and (min-width: 600px) {
+    #footer {height: 400px;}
+}
+@media screen and (min-width: 768px) {
+    #footer {height: 400px;}
+}
+@media screen and (min-width: 992px) {
+    #footer {height: 400px;}
+}
+@media screen and (min-width: 1200px) {
+    #footer {height: 350px;}
+}
